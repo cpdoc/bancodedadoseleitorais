@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Banco de Dados Eleitorais do Brasil – Período Democrático</title>
+<title>Banco de dados eleitorais do Brasil: Período democrático (1982-2026)</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--azul:#1a3a5c;--azul2:#2b5f8e;--cinza:#f4f6f9;--borda:#d0d8e4;--texto:#1a1a2e}
@@ -28,22 +28,23 @@ h2{font-size:1rem;font-weight:700;color:var(--azul);margin-bottom:1rem;text-tran
 .em-breve{opacity:.5;cursor:default}
 .em-breve .badge{display:inline-block;background:#e8f0fb;color:#2b5f8e;font-size:.68rem;font-weight:700;padding:.1rem .45rem;border-radius:3px;margin-top:.4rem;letter-spacing:.03em}
 footer{text-align:center;padding:1.4rem;color:#bbb;font-size:.75rem;border-top:1px solid var(--borda);margin-top:1rem}
-.nav-link{font-size:.78rem;color:rgba(255,255,255,.65);text-decoration:none;margin-top:.5rem;display:inline-block}
-.nav-link:hover{color:white}
+.cita{background:#f8fafc;border:1px solid var(--borda);border-left:4px solid var(--azul2);border-radius:6px;padding:.9rem 1.2rem;font-size:.86rem;line-height:1.6;margin-bottom:2rem}
+.cita b{color:var(--azul)}
 </style>
 </head>
 <body>
 <header>
-  <h1>Banco de Dados Eleitorais do Brasil &mdash; Período Democrático</h1>
+  <h1>Banco de dados eleitorais do Brasil: Período democrático (1982-2026)</h1>
   <p>Eleições federais e estaduais &middot; a partir de 1982 &middot; FGV</p>
-  <a class="nav-link" href="../index.html">&larr; Página inicial</a>
 </header>
 <div class="container">
   <div class="intro">
-    <p>Este banco reúne resultados das eleições federais e estaduais realizadas no Brasil a partir de 1982, organizados por estado e região, com base nos dados publicados pelo Tribunal Superior Eleitoral.</p>
-    <p>Os dados são apresentados em formato eletrônico interativo, com tabelas, gráficos e arquivos para download. As imprecisões e divergências identificadas nas fontes aparecem em notas.</p>
+    <p>Este banco reúne os resultados das eleições para presidente, governador, Senado Federal, Câmara dos Deputados e Assembleias Legislativas realizadas no Brasil de 1982 a 2026, organizados por estado e região. Uma página de referência apresenta os partidos que disputaram essas eleições, com suas fusões, incorporações e mudanças de nome.</p>
+    <p>O banco tem origem no livro <i>Dados Eleitorais do Brasil (1982-1996)</i> (Rio de Janeiro: Revan, 1998) e em sua versão eletrônica, hospedada no site do IUPERJ entre 2004 e 2011. Para esta edição, os dados originais foram revistos e atualizados com as eleições mais recentes.</p>
+    <p>Fontes: resultados oficiais do Tribunal Superior Eleitoral (TSE) e dos Tribunais Regionais Eleitorais. Para as eleições mais antigas, os dados vêm de levantamento do organizador nas publicações da época; para as mais recentes, dos arquivos de resultados disponibilizados pelo TSE. As imprecisões e divergências identificadas nas fontes aparecem em notas, ao pé de cada tabela.</p>
     <p>Apesar do esforço de verificação, o banco pode conter erros. Pesquisadores que identificarem alguma inconsistência nos dados podem enviar uma mensagem para o organizador, Jairo Nicolau (<a href="mailto:jairo.nicolau@fgv.br" style="color:var(--azul2)">jairo.nicolau@fgv.br</a>), indicando o cargo, o ano, o estado e, se possível, a fonte. Comentários e sugestões também são bem-vindos.</p>
   </div>
+  <div class="cita"><b>Como citar</b><br>NICOLAU, Jairo (org.). <i>Banco de dados eleitorais do Brasil: Período democrático (1982-2026)</i>. Rio de Janeiro: FGV CPDOC, 2026. Disponível em: <a href="https://cpdoc.github.io/bancodedadoseleitorais/1982-2026/index.html" style="color:var(--azul2)">https://cpdoc.github.io/bancodedadoseleitorais/1982-2026/index.html</a>. Acesso em: <span id="cit-data"></span>.</div>
 
   <h2>Cargos disponíveis</h2>
   <div class="cards">
@@ -55,18 +56,22 @@ footer{text-align:center;padding:1.4rem;color:#bbb;font-size:.75rem;border-top:1
         <div class="periodo">1989 · 1994 · 1998 · 2002 · 2006 · 2010 · 2014 · 2018 · 2022 · 2026</div>
       </div>
     </a>
-    <div class="card em-breve">
-      <div class="cargo">Executivo estadual</div>
-      <div class="titulo">Governadores</div>
-      <div class="periodo">1982–2014</div>
-      <span class="badge">Em breve</span>
-    </div>
-    <div class="card em-breve">
-      <div class="cargo">Legislativo federal</div>
-      <div class="titulo">Senado Federal</div>
-      <div class="periodo">1982–2014</div>
-      <span class="badge">Em breve</span>
-    </div>
+    <a class="card-link" href="governadores_1982_2026.html">
+<div class="card">
+<span class="seta">→</span>
+<div class="cargo">Executivo estadual</div>
+<div class="titulo">Governadores</div>
+<div class="periodo">1982 · 1986 · 1990 · 1994 · 1998 · 2002 · 2006 · 2010 · 2014 · 2018 · 2022 · 2026</div>
+</div>
+</a>
+    <a class="card-link" href="senado_1982_2026.html">
+<div class="card">
+<span class="seta">→</span>
+<div class="cargo">Legislativo federal</div>
+<div class="titulo">Senado Federal</div>
+<div class="periodo">1994–2026 · eleitos desde 1982</div>
+</div>
+</a>
     <a class="card-link" href="camara_1982_2026.html">
 <div class="card">
 <span class="seta">→</span>
@@ -75,14 +80,25 @@ footer{text-align:center;padding:1.4rem;color:#bbb;font-size:.75rem;border-top:1
 <div class="periodo">1982 · 1986 · 1990 · 1994 · 1998 · 2002 · 2006 · 2010 · 2014 · 2018 · 2022 · 2026</div>
 </div>
 </a>
-    <div class="card em-breve">
-      <div class="cargo">Legislativo estadual</div>
-      <div class="titulo">Assembleias Legislativas</div>
-      <div class="periodo">1982–2014</div>
-      <span class="badge">Em breve</span>
-    </div>
+    <a class="card-link" href="assembleias_1982_2026.html">
+<div class="card">
+<span class="seta">→</span>
+<div class="cargo">Legislativo estadual</div>
+<div class="titulo">Assembleias Legislativas</div>
+<div class="periodo">1982 · 1986 · 1990 · 1994 · 1998 · 2002 · 2006 · 2010 · 2014 · 2018 · 2022 · 2026</div>
+</div>
+</a>
+    <a class="card-link" href="partidos_1982_2026.html">
+<div class="card">
+<span class="seta">→</span>
+<div class="cargo">Referência</div>
+<div class="titulo">Partidos e siglas</div>
+<div class="periodo">Glossário, fusões, incorporações e mudanças de nome</div>
+</div>
+</a>
   </div>
 </div>
-<footer>Banco de Dados Eleitorais do Brasil &ndash; Período Democrático &middot; FGV</footer>
+<footer>Banco de dados eleitorais do Brasil: Período democrático (1982-2026) &middot; FGV CPDOC</footer>
+<script>(function(){var d=new Date(),m=['jan.','fev.','mar.','abr.','maio','jun.','jul.','ago.','set.','out.','nov.','dez.'];var u=document.getElementById('cit-url'),a=document.getElementById('cit-data');if(a)a.textContent=d.getDate()+' '+m[d.getMonth()]+' '+d.getFullYear();})();</script>
 </body>
 </html>

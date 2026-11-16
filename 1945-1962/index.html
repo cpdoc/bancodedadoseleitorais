@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Banco de Dados Eleitorais do Brasil – República de 1946</title>
+<title>Banco de dados eleitorais do Brasil: República de 1946 (1945-1962)</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--azul:#1a3a5c;--azul2:#2b5f8e;--cinza:#f4f6f9;--borda:#d0d8e4;--texto:#1a1a2e}
@@ -11,8 +11,6 @@ body{font-family:"Segoe UI",Arial,sans-serif;background:var(--cinza);color:var(-
 header{background:var(--azul);color:white;padding:1.8rem 2rem}
 header h1{font-size:1.4rem;font-weight:700;line-height:1.35}
 header p{font-size:.83rem;opacity:.72;margin-top:.4rem}
-.nav-link{font-size:.78rem;color:rgba(255,255,255,.65);text-decoration:none;margin-top:.5rem;display:inline-block}
-.nav-link:hover{color:white}
 .container{max-width:860px;margin:0 auto;padding:2rem 1.3rem}
 .intro{background:white;border:1px solid var(--borda);border-radius:8px;padding:1.6rem 2rem;margin-bottom:2rem;line-height:1.75;font-size:.95rem}
 .intro p{margin-bottom:.9rem}
@@ -30,13 +28,14 @@ h2{font-size:1rem;font-weight:700;color:var(--azul);margin-bottom:1rem;text-tran
 .em-breve{opacity:.5;cursor:default}
 .em-breve .badge{display:inline-block;background:#e8f0fb;color:#2b5f8e;font-size:.68rem;font-weight:700;padding:.1rem .45rem;border-radius:3px;margin-top:.4rem;letter-spacing:.03em}
 footer{text-align:center;padding:1.4rem;color:#bbb;font-size:.75rem;border-top:1px solid var(--borda);margin-top:1rem}
+.cita{background:#f8fafc;border:1px solid var(--borda);border-left:4px solid var(--azul2);border-radius:6px;padding:.9rem 1.2rem;font-size:.86rem;line-height:1.6;margin-bottom:2rem}
+.cita b{color:var(--azul)}
 </style>
 </head>
 <body>
 <header>
-  <h1>Banco de Dados Eleitorais do Brasil &mdash; República de 1946</h1>
+  <h1>Banco de dados eleitorais do Brasil: República de 1946 (1945-1962)</h1>
   <p>Eleições federais e estaduais &middot; 1945&ndash;1962 &middot; FGV</p>
-  <a class="nav-link" href="../index.html">&larr; Página inicial</a>
 </header>
 <div class="container">
   <div class="intro">
@@ -45,6 +44,7 @@ footer{text-align:center;padding:1.4rem;color:#bbb;font-size:.75rem;border-top:1
     <p>Com relação aos resultados para a Câmara dos Deputados, o procedimento adotado é o mesmo descrito em detalhes no artigo <span class="ref">"Partidos na República de 1946: Velhas Teses, Novos Dados", <em>Revista Dados</em>, 47(1), 2004.</span> Alguns dados sobre as bancadas dos partidos foram publicados com erros naquele artigo, mas estão corrigidos nesta versão do banco.</p>
     <p>Apesar do esforço de verificação, o banco pode conter erros. Pesquisadores que identificarem alguma inconsistência nos dados podem enviar uma mensagem para o organizador, Jairo Nicolau (<a href="mailto:jairo.nicolau@fgv.br" style="color:var(--azul2)">jairo.nicolau@fgv.br</a>), indicando o cargo, o ano, o estado e, se possível, a fonte. Comentários e sugestões também são bem-vindos.</p>
   </div>
+  <div class="cita"><b>Como citar</b><br>NICOLAU, Jairo (org.). <i>Banco de dados eleitorais do Brasil: República de 1946 (1945-1962)</i>. Rio de Janeiro: FGV CPDOC, 2026. Disponível em: <a href="https://cpdoc.github.io/bancodedadoseleitorais/1945-1962/index.html" style="color:var(--azul2)">https://cpdoc.github.io/bancodedadoseleitorais/1945-1962/index.html</a>. Acesso em: <span id="cit-data"></span>.<br><span style="color:#666">Para os votos por partido na Câmara dos Deputados, cite também: NICOLAU, Jairo. Partidos na República de 1946: velhas teses, novos dados. <i>Dados</i>, Rio de Janeiro, v. 47, n. 1, 2004.</span></div>
 
   <h2>Cargos disponíveis</h2>
   <div class="cards">
@@ -132,6 +132,7 @@ footer{text-align:center;padding:1.4rem;color:#bbb;font-size:.75rem;border-top:1
 
   </div>
 </div>
-<footer>Banco de Dados Eleitorais do Brasil &ndash; República de 1946 &middot; FGV &middot; 2025</footer>
+<footer>Banco de dados eleitorais do Brasil: República de 1946 (1945-1962) &middot; FGV CPDOC</footer>
+<script>(function(){var d=new Date(),m=['jan.','fev.','mar.','abr.','maio','jun.','jul.','ago.','set.','out.','nov.','dez.'];var u=document.getElementById('cit-url'),a=document.getElementById('cit-data');if(a)a.textContent=d.getDate()+' '+m[d.getMonth()]+' '+d.getFullYear();})();</script>
 </body>
 </html>
